@@ -51,7 +51,7 @@ with(newdata, plot(d, Sub_metering_1, xlab="", ylab="Energy sub metering", type=
 with(newdata, lines(d, Sub_metering_1, col = "black", type = "l"))
 with(newdata, lines(d, Sub_metering_2, col = "red", type = "l"))
 with(newdata, lines(d, Sub_metering_3, col = "blue", type = "l"))
-legend("topright", lty=c(1,1,1), col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", lty=c(1,1,1), bty="n", col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ##Plot the 4th graph
 with(newdata, plot(d, Global_reactive_power, xlab="datetime", ylab="", type="l", main=("")))
