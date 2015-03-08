@@ -54,6 +54,6 @@ with(newdata, lines(d, Sub_metering_3, col = "blue", type = "l"))
 legend("topright", lty=c(1,1,1), bty="n", col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ##Plot the 4th graph
-with(newdata, plot(d, Global_reactive_power, xlab="datetime", ylab="", type="l", main=("")))
+with(newdata, plot(d, Global_reactive_power, xlab="datetime", ylab="Global_reactive_power", type="l", main=("")))
 ##Close the png device
 dev.off()
